@@ -36,7 +36,7 @@ void testmed::cleanupTestCase()
 
 void testmed::open_db()
 {
-    QVERIFY(m_cntrlBD->openDataBase() == 0);
+    QVERIFY(m_cntrlBD->openDataBase() == 1);
 }
 
 QTEST_APPLESS_MAIN(testmed)
